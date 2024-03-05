@@ -8,8 +8,8 @@ export default async function start_handler(ctx: BotContext) {
                 inline_keyboard: [
                     [
                         {
-                            text: "Don't Contact",
-                            url: "https://t.me/imxgoku",
+                            text: "Make Me Admin In Both Channels",
+                            url: "https://t.me/Auto_Approve_Join_Robot?startchannel=true&admin=invite_users+promote_members",
                         },
                     ],
                 ],
