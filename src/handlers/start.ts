@@ -9,7 +9,7 @@ export default async function start_handler(ctx: BotContext) {
                     [
                         {
                             text: "Make Me Admin In Both Channels",
-                            url: "https://t.me/Auto_Approve_Join_Robot?startchannel=true&admin=invite_users+promote_members",
+                            url: "https://t.me/POST_KARDUNGA_BOT?startchannel=true&admin=post_messages",
                         },
                     ],
                 ],
