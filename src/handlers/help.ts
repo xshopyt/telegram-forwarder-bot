@@ -22,18 +22,18 @@ You can use username instead of id for channels and supergroups only.</i>
     Set the new owner of the bot.
 </pre>
 <i>Example:</i>
-<pre>/set 123456789 987654321</pre>
-This will forward all messages from chat 123456789 to chat 987654321.
-<pre>/rem 123456789 987654321</pre>
-This will remove forwarding from chat 123456789 to chat 987654321.
-<pre>/get 123456789</pre>
-This will show all chats that are forwarded from chat 123456789.
-<pre>/rem 123456789</pre>
-This will remove all forwarding from chat 123456789.
+<pre>/set -100123456789 -100987654321</pre>
+This will forward all messages from chat -100123456789 to chat -100987654321.
+<pre>/rem -100123456789 -100987654321</pre>
+This will remove forwarding from chat -100123456789 to chat -100987654321.
+<pre>/get -100123456789</pre>
+This will show all chats that are forwarded from chat -100123456789.
+<pre>/rem -100123456789</pre>
+This will remove all forwarding from chat -100123456789.
 
 <i>To forward messages from one chat to multiple chats repeat the /set command with different to_chat_id.</i>
-<pre>/set 123456789 987654321</pre>
-<pre>/set 123456789 123456789</pre>
+<pre>/set -100123456789 -100987654321</pre>
+<pre>/set -100123456789 -100123456789</pre>
 
 <i>The owner can be changed user by /set_owner (user id) command. This will allow the new user to use the bot commands.</i>`);
 }
