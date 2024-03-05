@@ -35,7 +35,5 @@ This will remove all forwarding from chat 123456789.
 <pre>/set 123456789 987654321</pre>
 <pre>/set 123456789 123456789</pre>
 
-<i>The owner can be changed user by /set_owner (user id) command. This will allow the new user to use the bot commands.</i>
-
-<b>Source:</b> https://github.com/viperadnan-git/telegram-forwarder-bot`);
+<i>The owner can be changed user by /set_owner (user id) command. This will allow the new user to use the bot commands.</i>`);
 }
