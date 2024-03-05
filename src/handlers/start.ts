@@ -8,24 +8,8 @@ export default async function start_handler(ctx: BotContext) {
                 inline_keyboard: [
                     [
                         {
-                            text: "Create a bot",
-                            url: "https://t.me/BotFather",
-                        },
-                        {
-                            text: "Feature Request",
-                            url: "https://github.com/viperadnan-git/telegram-forwarder-bot/issues",
-                        },
-                    ],
-                    [
-                        {
-                            text: "Source Code",
-                            url: "https://github.com/viperadnan-git/telegram-forwarder-bot",
-                        },
-                    ],
-                    [
-                        {
-                            text: "Support Group",
-                            url: "https://t.me/vipercommunity",
+                            text: "Don't Contact",
+                            url: "https://t.me/imxgoku",
                         },
                     ],
                 ],
